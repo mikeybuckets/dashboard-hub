@@ -30,7 +30,10 @@ function HeroHome() {
               <stop stopColor='#DFDFDF' offset='100%' />
             </linearGradient>
           </defs>
-          <g fill='url(#illustration-01)' fillRule='evenodd'>
+          <g
+            fill='url(https://divoperations.com/resources/logos/DivOps/hero-ill-b.svg)'
+            fillRule='evenodd'
+          >
             <circle cx='1232' cy='128' r='128' />
             <circle cx='155' cy='443' r='64' />
           </g>
@@ -56,8 +59,9 @@ function HeroHome() {
                 data-aos='zoom-y-out'
                 data-aos-delay='150'
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                An online suite of source software tools that aims to simplify
+                everyday web administration tasks through automation and pairing
+                users to efficient resources.
               </p>
               <div
                 className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center'
@@ -66,15 +70,15 @@ function HeroHome() {
               >
                 <div>
                   <a
-                    className='btn text-white bg-gray-500 hover:bg-gray-700 hover w-full mb-4 sm:w-auto sm:mb-0'
-                    href='#0'
+                    className='btn text-white bg-gray-500 hover:bg-gray-800 hover w-full mb-4 sm:w-auto sm:mb-0'
+                    href='#pricing'
                   >
                     Get Started
                   </a>
                 </div>
                 <div>
                   <a
-                    className='btn text-purple-200 hover:text-white bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:ml-4'
+                    className='btn text-white hover:text-900 bg-purple-700 hover:bg-purple-800 w-full sm:w-auto sm:ml-4'
                     href='#0'
                   >
                     Learn more
