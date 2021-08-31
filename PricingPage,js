@@ -6,12 +6,12 @@ function PricingTables() {
   const [priceOutput] = useState({
     // monthly
     plan1: {
-      false: ["$", "0", "/User/Month"],
-      true: ["$", "0", "User/Year"],
+      false: ["$", "0", "Monthly"],
+      true: ["$", "0", "Yearly"],
     },
     plan2: {
-      false: ["$", "4", "/User/Month"],
-      true: ["$", "30", "User/Year"],
+      false: ["$", "4", "Monthly"],
+      true: ["$", "30", "Yearly"],
     },
     plan3: {
       false: ["$", "59", "/user/month"],
@@ -66,10 +66,11 @@ function PricingTables() {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    setValue(true);
+                                 
+                    setValue(false);
                   }}
                 >
-                  Bill Monthly
+                  Billed Yearly <span className='text-green-500'>-25%</span>
                 </button>
                 <button
                   className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${
@@ -77,10 +78,10 @@ function PricingTables() {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    setValue(false);
+                    setValue(true);
                   }}
                 >
-                  Bill Yearly <span className='text-green-500'>-25%</span>
+                  Billed Monthly
                 </button>
               </div>
             </div>
@@ -100,7 +101,8 @@ function PricingTables() {
               >
                 <div className='mb-4'>
                   <h3 className='text-lg text-font-bold mb-1'>
-                    Free Plan: <span className='text-red-600'>Agency</span>
+                    Free Plan :{" "}
+                    <span className='text-purple-700 opacity-1'>Agency</span>
                   </h3>
                   <div className='inline-flex items-baseline mb-2'>
                     <span className='text-3xl font-bold'>
@@ -137,7 +139,7 @@ function PricingTables() {
                     >
                       <path d='M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z' />
                     </svg>
-                    <span>Dashboard customization</span>
+                    <span>Limitless customization</span>
                   </li>
                   <li className='flex items-center mb-2'>
                     <svg
@@ -182,7 +184,7 @@ function PricingTables() {
 
               {/* Pricing table 2 */}
               <div
-                className='relative flex flex-col h-full py-5 px-6 rounded bg-pink-100 shadow-xl border-2 border-blue-700'
+                className='relative flex flex-col h-full py-5 px-6 rounded bg-gray-100 shadow-xl border-2 border-blue-700'
                 data-aos='zoom-y-out'
                 data-aos-delay='450'
               >
@@ -234,7 +236,7 @@ function PricingTables() {
                     >
                       <path d='M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z' />
                     </svg>
-                    <span>Dashboard customization</span>
+                    <span>Limitless customization</span>
                   </li>
                   <li className='flex items-center mb-2'>
                     <svg
