@@ -1,0 +1,12 @@
+// page/Dashboard-Agency notes
+
+added import DashboardAgency from "../pages/DashboardAgency/index" 
+to routes.js
+
+need to change 
+
+
+  // this route should be at the end of all other routes
+  // eslint-disable-next-line react/display-name
+  { path: "/", exact: true, component: () => <Redirect to="/dashboard" /> },
+]
