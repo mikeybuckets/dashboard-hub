@@ -20,7 +20,7 @@ const SidebarContent = props => {
 
     const initMenu = () => {
       new MetisMenu("#side-menu")
-      let matchingMenuItem = null
+      let matchingMenuItem = nutruell
       const ul = document.getElementById("side-menu")
       const items = ul.getElementsByTagName("a")
       for (let i = 0; i < items.length; ++i) {
@@ -80,10 +80,10 @@ const SidebarContent = props => {
           }
         }
       }
-      scrollElement(item)
+      scrollElement(item);
       return false
     }
-    scrollElement(item)
+    scrollElement(item);
     return false
   }
 
@@ -94,11 +94,27 @@ const SidebarContent = props => {
           <ul className="metismenu list-unstyled" id="side-menu">
             <li className="menu-title">{props.t("Menu")} </li>
             <li>
-              <Link to="/dashboard-selection" className="">
+              <Link to="/#" className="">
                 <i className="bx bx-home-circle"></i>
-                <span className="badge rounded-pill bg-info float-end">04</span>
+                <span className="badge rounded-pill bg-info float-end">
+                  04
+                </span>
                 <span>{props.t("Dashboards")}</span>
               </Link>
+              <ul className="sub-menu" aria-expanded="false">
+                <li>
+                  <Link to="/dashboard">{props.t("Default")}</Link>
+                </li>
+                <li>
+                  <Link to="/dashboard-saas">{props.t("Saas")}</Link>
+                </li>
+                <li>
+                  <Link to="/dashboard-crypto">{props.t("Crypto")}</Link>
+                </li>
+                <li>
+                  <Link to="/blog">{props.t("Blog")}</Link>
+                </li>
+              </ul>
             </li>
 
             <li className="menu-title">{props.t("Apps")}</li>
@@ -513,7 +529,9 @@ const SidebarContent = props => {
                   <Link to="/ui-drawer">{props.t("Drawer")}</Link>
                 </li>
                 <li>
-                  <Link to="/ui-breadcrumb">{props.t("Breadcrumb")}</Link>
+                  <Link to="/ui-breadcrumb">
+                    {props.t("Breadcrumb")}
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -586,9 +604,7 @@ const SidebarContent = props => {
                   <Link to="/tables-editable">{props.t("Editable Table")}</Link>
                 </li>
                 <li>
-                  <Link to="/tables-dragndrop">
-                    {props.t("Drag & Drop Table")}
-                  </Link>
+                  <Link to="/tables-dragndrop">{props.t("Drag & Drop Table")}</Link>
                 </li>
               </ul>
             </li>

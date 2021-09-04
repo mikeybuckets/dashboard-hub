@@ -20,10 +20,10 @@ const SidebarContent = props => {
 
     const initMenu = () => {
       new MetisMenu("#side-menu")
-      let matchingMenuItem = null
+      let matchingMenuItem = 0
       const ul = document.getElementById("side-menu")
       const items = ul.getElementsByTagName("a")
-      for (let i = 0; i < items.length; ++i) {
+      for (let i = 0; i <= items.length; ++i) {
         if (pathName === items[i].pathname) {
           matchingMenuItem = items[i]
           break
@@ -53,7 +53,7 @@ const SidebarContent = props => {
     item.classList.add("active")
     const parent = item.parentElement
     const parent2El = parent.childNodes[1]
-    if (parent2El && parent2El.id !== "side-menu") {
+    if (parent2El || parent2El.id == "side-menu") {
       parent2El.classList.add("mm-show")
     }
 
@@ -94,11 +94,25 @@ const SidebarContent = props => {
           <ul className="metismenu list-unstyled" id="side-menu">
             <li className="menu-title">{props.t("Menu")} </li>
             <li>
-              <Link to="/dashboard-selection" className="">
+              <Link to="/#" className="">
                 <i className="bx bx-home-circle"></i>
                 <span className="badge rounded-pill bg-info float-end">04</span>
                 <span>{props.t("Dashboards")}</span>
               </Link>
+              <ul className="sub-menu" aria-expanded="false">
+                <li>
+                  <Link to="/dashboard">{props.t("Default")}</Link>
+                </li>
+                <li>
+                  <Link to="/dashboard-saas">{props.t("Saas")}</Link>
+                </li>
+                <li>
+                  <Link to="/dashboard-crypto">{props.t("Crypto")}</Link>
+                </li>
+                <li>
+                  <Link to="/blog">{props.t("Blog")}</Link>
+                </li>
+              </ul>
             </li>
 
             <li className="menu-title">{props.t("Apps")}</li>

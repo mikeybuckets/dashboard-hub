@@ -156,31 +156,25 @@ const Header = props => {
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
-                            <Link to="#">{props.t("Web Admin")}</Link>
+                            <Link to="#">{props.t("LighWebtbox")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Developer")}</Link>
+                            <Link to="#">{props.t("Range Slider")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Executive")}</Link>
+                            <Link to="#">{props.t("Sweet Alert")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Professional")}</Link>
+                            <Link to="#">{props.t("Rating")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Finances")}</Link>
+                            <Link to="#">{props.t("Forms")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Crypto")}</Link>
+                            <Link to="#">{props.t("Tables")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Analytics")}</Link>
-                          </li>
-                          <li>
-                            <Link to="#">{props.t("Marketing")}</Link>
-                          </li>
-                          <li>
-                            <Link to="#">{props.t("Edjucation")}</Link>
+                            <Link to="#">{props.t("Charts")}</Link>
                           </li>
                         </ul>
                       </Col>
@@ -249,7 +243,7 @@ const Header = props => {
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
-                            <Link to="#">{props.t("Web Admnin")}</Link>
+                            <Link to="#">{props.t("Lightbox")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Range Slider")}</Link>

@@ -156,7 +156,7 @@ const Header = props => {
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
-                            <Link to="#">{props.t("Web Admin")}</Link>
+                            <Link to="#">{props.t("Web Admnin")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Developer")}</Link>
@@ -165,19 +165,13 @@ const Header = props => {
                             <Link to="#">{props.t("Executive")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Professional")}</Link>
-                          </li>
-                          <li>
                             <Link to="#">{props.t("Finances")}</Link>
-                          </li>
-                          <li>
-                            <Link to="#">{props.t("Crypto")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Analytics")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Marketing")}</Link>
+                            <Link to="#">{props.t("Edjucation")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Edjucation")}</Link>

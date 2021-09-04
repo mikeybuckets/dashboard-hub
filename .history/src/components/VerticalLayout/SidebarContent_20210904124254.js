@@ -94,7 +94,7 @@ const SidebarContent = props => {
           <ul className="metismenu list-unstyled" id="side-menu">
             <li className="menu-title">{props.t("Menu")} </li>
             <li>
-              <Link to="/dashboard-selection" className="">
+              <Link to="/" className="">
                 <i className="bx bx-home-circle"></i>
                 <span className="badge rounded-pill bg-info float-end">04</span>
                 <span>{props.t("Dashboards")}</span>

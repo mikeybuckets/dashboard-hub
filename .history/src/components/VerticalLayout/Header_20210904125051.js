@@ -156,7 +156,7 @@ const Header = props => {
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
-                            <Link to="#">{props.t("Web Admin")}</Link>
+                            <Link to="#">{props.t("Web Admnin")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Developer")}</Link>
