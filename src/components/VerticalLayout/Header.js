@@ -250,16 +250,14 @@ const Header = props => {
                     <Row>
                       <Col sm={6}>
                         <h5 className="font-size-14 mt-0">
-                          {props.t("*Resource Hub*")}
+                          {props.t("Resource Hub*")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
                             <Link to="#">{props.t("Community")}</Link>
                           </li>
                           <li>
-                            <Link to="#">
-                              {props.t("How Things Work (Docs)")}
-                            </Link>
+                            <Link to="#">{props.t("Docs")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Tutorials")}</Link>
@@ -289,6 +287,13 @@ const Header = props => {
                             alt=""
                             className="img-fluid mx-auto d-block"
                           />
+                        </div>
+                        <div>
+                          <h1 className="text-center">
+                            <li>
+                              <Link to="#">{props.t("Account")}</Link>
+                            </li>
+                          </h1>
                         </div>
                       </Col>
                     </Row>
