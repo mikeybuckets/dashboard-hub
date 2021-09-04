@@ -155,7 +155,7 @@ const Header = props => {
                   <Col sm={8}>
                     <Row>
                       <Col md={4}>
-                        <h5 className="font-size-14 mt-0">
+                        <h5 className="font-size-14 pt-3">
                           {props.t("*Dashboards")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
@@ -187,7 +187,7 @@ const Header = props => {
                       </Col>
 
                       <Col md={4}>
-                        <h5 className="font-size-14 mt-0">
+                        <h5 className="font-size-14 pt-3">
                           {props.t("*Ops-Center")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
@@ -216,7 +216,7 @@ const Header = props => {
                       </Col>
 
                       <Col md={4}>
-                        <h5 className="font-size-14 mt-0">
+                        <h5 className="font-size-14 pt-3">
                           {props.t("Applications*")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
@@ -249,7 +249,7 @@ const Header = props => {
                   <Col sm={4}>
                     <Row>
                       <Col sm={6}>
-                        <h5 className="font-size-14 mt-0">
+                        <h5 className="font-size-14 pt-3 content-justify">
                           {props.t("Resource Hub*")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
@@ -282,18 +282,20 @@ const Header = props => {
 
                       <Col sm={5}>
                         <div>
-                          <img
-                            src={megamenuImg}
-                            alt=""
-                            className="img-fluid mx-auto d-block"
-                          />
-                        </div>
-                        <div>
+                          <h1 className="text-center pt-4">DivOps</h1>
                           <h1 className="text-center">
                             <li>
                               <Link to="#">{props.t("Account")}</Link>
                             </li>
                           </h1>
+                        </div>
+
+                        <div>
+                          <img
+                            src={megamenuImg}
+                            alt=""
+                            className="img-fluid mx-auto d-block"
+                          />
                         </div>
                       </Col>
                     </Row>
