@@ -6,7 +6,7 @@
 
 
 {
-  "name": "Simple-React",
+  "name": "Admin-Hooks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
