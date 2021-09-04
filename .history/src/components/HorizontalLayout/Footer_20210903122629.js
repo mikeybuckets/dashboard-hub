@@ -9,7 +9,9 @@ const Footer = () => {
           <Row>
             <Col md={6}>{new Date().getFullYear()} © Skote.</Col>
             <Col md={6}>
-              <div className="text-sm-end d-none d-sm-block">`mc,</div>
+              <div className="text-sm-end d-none d-sm-block">
+                Design & Develop by Themesbrand
+              </div>
             </Col>
           </Row>
         </Container>
