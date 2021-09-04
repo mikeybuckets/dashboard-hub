@@ -96,7 +96,7 @@ const SidebarContent = props => {
             <li>
               <Link to="/dashboard-selection" className="">
                 <i className="bx bx-home-circle"></i>
-                <span className="badge rounded-pill bg-info float-end">04</span>
+                <span className="badge rounded-pill bg-info float-end">09</span>
                 <span>{props.t("Dashboards")}</span>
               </Link>
             </li>

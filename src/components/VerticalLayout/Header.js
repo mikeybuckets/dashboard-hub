@@ -142,9 +142,13 @@ const Header = props => {
                 setmegaMenu(!megaMenu)
               }}
             >
-              <DropdownToggle className="btn header-item " caret tag="button">
+              <DropdownToggle
+                className="btn header-item font-semibold "
+                caret
+                tag="button"
+              >
                 {" "}
-                {props.t("Mega Menu")} <i className="mdi mdi-chevron-down" />
+                {props.t("Service Menu")} <i className="mdi mdi-chevron-down" />
               </DropdownToggle>
               <DropdownMenu className="dropdown-megamenu">
                 <Row>
@@ -152,7 +156,7 @@ const Header = props => {
                     <Row>
                       <Col md={4}>
                         <h5 className="font-size-14 mt-0">
-                          {props.t("Dashboards")}
+                          {props.t("*Dashboards")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
@@ -162,10 +166,10 @@ const Header = props => {
                             <Link to="#">{props.t("Developer")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Executive")}</Link>
+                            <Link to="#">{props.t("Professional")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Professional")}</Link>
+                            <Link to="#">{props.t("Executive")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Finances")}</Link>
@@ -174,46 +178,46 @@ const Header = props => {
                             <Link to="#">{props.t("Crypto")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Analytics")}</Link>
+                            <Link to="#">{props.t("Ecommerce")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Marketing")}</Link>
                           </li>
-                          <li>
-                            <Link to="#">{props.t("Edjucation")}</Link>
-                          </li>
                         </ul>
                       </Col>
 
                       <Col md={4}>
                         <h5 className="font-size-14 mt-0">
-                          {props.t("Applications")}
+                          {props.t("*Ops-Center")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
-                            <Link to="#">{props.t("Ecommerce")}</Link>
+                            <Link to="#">{props.t("Domain Manager")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Calendar")}</Link>
+                            <Link to="#">{props.t("DNS Tools")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Email")}</Link>
+                            <Link to="#">{props.t("Monitoring")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Projects")}</Link>
+                            <Link to="#">{props.t("Security")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Tasks")}</Link>
+                            <Link to="#">{props.t("Projects Manager")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Contacts")}</Link>
+                            <Link to="#">{props.t("Open Source")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Preview")}</Link>
                           </li>
                         </ul>
                       </Col>
 
                       <Col md={4}>
                         <h5 className="font-size-14 mt-0">
-                          {props.t("Extra Pages")}
+                          {props.t("Applications*")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
@@ -241,33 +245,39 @@ const Header = props => {
                       </Col>
                     </Row>
                   </Col>
+
                   <Col sm={4}>
                     <Row>
                       <Col sm={6}>
                         <h5 className="font-size-14 mt-0">
-                          {props.t("UI Components")}
+                          {props.t("*Resource Hub*")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
-                            <Link to="#">{props.t("Web Admnin")}</Link>
+                            <Link to="#">{props.t("Community")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Range Slider")}</Link>
+                            <Link to="#">
+                              {props.t("How Things Work (Docs)")}
+                            </Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Sweet Alert")}</Link>
+                            <Link to="#">{props.t("Tutorials")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Rating")}</Link>
+                            <Link to="#">{props.t("Vlog")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Forms")}</Link>
+                            <Link to="#">{props.t("Resources")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Tables")}</Link>
+                            <Link to="#">{props.t("Legal")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Charts")}</Link>
+                            <Link to="#">{props.t("Store")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Contact")}</Link>
                           </li>
                         </ul>
                       </Col>
