@@ -166,7 +166,7 @@ const Header = props => {
                             <Link to="#">{props.t("Developer")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Productivity")}</Link>
+                            <Link to="#">{props.t("Professional")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Executive")}</Link>
@@ -216,10 +216,32 @@ const Header = props => {
                       </Col>
 
                       <Col md={4}>
-                        <h5 className="font-size-14 pt-3">
+                        <h5 className="font-size-14 pt-3 content-justify">
                           {props.t("Applications*")}
                         </h5>
-                        <ul className="list-unstyled megamenu-list"></ul>
+                        <ul className="list-unstyled megamenu-list">
+                          <li>
+                            <Link to="#">{props.t("Light Sidebar")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Compact Sidebar")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Horizontal layout")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#"> {props.t("Maintenance")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Coming Soon")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Timeline")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("FAQs")}</Link>
+                          </li>
+                        </ul>
                       </Col>
                     </Row>
                   </Col>

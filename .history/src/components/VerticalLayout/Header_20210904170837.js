@@ -166,7 +166,7 @@ const Header = props => {
                             <Link to="#">{props.t("Developer")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Productivity")}</Link>
+                            <Link to="#">{props.t("Professional")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Executive")}</Link>

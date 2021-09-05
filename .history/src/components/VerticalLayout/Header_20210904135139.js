@@ -155,7 +155,7 @@ const Header = props => {
                   <Col sm={8}>
                     <Row>
                       <Col md={4}>
-                        <h5 className="font-size-14 pt-3">
+                        <h5 className="font-size-14 mt-0">
                           {props.t("*Dashboards")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
@@ -164,9 +164,6 @@ const Header = props => {
                           </li>
                           <li>
                             <Link to="#">{props.t("Developer")}</Link>
-                          </li>
-                          <li>
-                            <Link to="#">{props.t("Productivity")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Executive")}</Link>
@@ -178,6 +175,9 @@ const Header = props => {
                             <Link to="#">{props.t("Crypto")}</Link>
                           </li>
                           <li>
+                            <Link to="#">{props.t("Analytics")}</Link>
+                          </li>
+                          <li>
                             <Link to="#">{props.t("Ecommerce")}</Link>
                           </li>
                           <li>
@@ -187,7 +187,7 @@ const Header = props => {
                       </Col>
 
                       <Col md={4}>
-                        <h5 className="font-size-14 pt-3">
+                        <h5 className="font-size-14 mt-0">
                           {props.t("*Ops-Center")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
@@ -216,10 +216,32 @@ const Header = props => {
                       </Col>
 
                       <Col md={4}>
-                        <h5 className="font-size-14 pt-3">
+                        <h5 className="font-size-14 mt-0">
                           {props.t("Applications*")}
                         </h5>
-                        <ul className="list-unstyled megamenu-list"></ul>
+                        <ul className="list-unstyled megamenu-list">
+                          <li>
+                            <Link to="#">{props.t("Light Sidebar")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Compact Sidebar")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Horizontal layout")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#"> {props.t("Maintenance")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Coming Soon")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("Timeline")}</Link>
+                          </li>
+                          <li>
+                            <Link to="#">{props.t("FAQs")}</Link>
+                          </li>
+                        </ul>
                       </Col>
                     </Row>
                   </Col>
@@ -227,15 +249,15 @@ const Header = props => {
                   <Col sm={4}>
                     <Row>
                       <Col sm={6}>
-                        <h5 className="font-size-14 pt-3 content-justify">
-                          {props.t("Resource Hub*")}
+                        <h5 className="font-size-14 mt-0">
+                          {props.t("*Resource Hub*")}
                         </h5>
                         <ul className="list-unstyled megamenu-list">
                           <li>
                             <Link to="#">{props.t("Community")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Docs")}</Link>
+                            <Link to="#">{props.t("Documentation")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Tutorials")}</Link>
@@ -250,7 +272,7 @@ const Header = props => {
                             <Link to="#">{props.t("Legal")}</Link>
                           </li>
                           <li>
-                            <Link to="#">{props.t("Store")}</Link>
+                            <Link to="#">{props.t("How Things Work")}</Link>
                           </li>
                           <li>
                             <Link to="#">{props.t("Contact")}</Link>
@@ -259,15 +281,6 @@ const Header = props => {
                       </Col>
 
                       <Col sm={5}>
-                        <div>
-                          <h1 className="text-center pt-4">DivOps</h1>
-                          <h1 className="text-center">
-                            <li>
-                              <Link to="#">{props.t("Account")}</Link>
-                            </li>
-                          </h1>
-                        </div>
-
                         <div>
                           <img
                             src={megamenuImg}

@@ -1,0 +1,80 @@
+domainManagerIcon = "bx bxs-plane-take-off"
+fileMangerIcon = "bx bxs-cart-download"
+docsIcon = "bx bxs-collection"
+layoutChangeIcon = "bx bxs-layout"
+customizeLayoutIcon = "bx bxs-customize"
+calenderIcon = 'bx bxs-calendar"
+farLeftTopMenuIcon <i className="dripicons-align-justify" />
+ChatIcon="dripicons-conversation"
+exitFullScreenIcon="dripicons-backspace"
+CryptoIcon="dripicons-jewel"
+openSourceIcon="dripicons-network-2"
+tasksIcon="dripicons-to-do"
+dashboardIcon="dripicons-rocket"
+cryptoWallet="dripicons-wallet"
+financialIcon="dripicons-jewel"
+propagationIcon="dripicons-clock"
+propagationIconTwo="dripicons-stopwatch"
+invoiceIcon="dripicons-document"
+projectsIcon="dripicons-archive"
+webAdminIcon="dripicons-browser-upload"
+
+email
+nextEmailIcon="dripicons-skip"
+returnBackIcon="dripicons-return"
+replyAllIcon="dripicons-reply-all"
+
+colors V
+#54FFC6
+#A45EE5
+#424242
+#151516
+#000000
+
+greens
+
+#16F529	Neon Green
+#5EFB6E	Jade Green
+#36F57F	Lime Mint Green
+#00FF7F	SpringGreen (W3C)
+#00FA9A	MediumSpringGreen (W3C)
+#5FFB17	Emerald Green
+#00FF00	Lime (W3C)
+#7CFC00	LawnGreen (W3C)
+#66FF00	Bright Green
+
+gray 
+
+#F0FFF0	HoneyDew (W3C)
+
+
+red/pink
+
+#B388FF D
+#F9A7B0	Flamingo Pink
+#CA226B	Pink Violet
+#FBBBB9	Deep Rose
+#CD5C5C	IndianRed (W3C)
+#F62217	Ruby Red
+#F70D1A	Ferrari Red
+#800517	Deep Red
+#8B0000	DarkRed (W3C)
+
+#D462FF Heliotrope Purple
+#36013F	Deep Purple
+#7B68EE	MediumSlateBlue (W3C)
+#6C2DC7	Purple Amethyst
+#9400D3	DarkViolet (W3C)
+#8D38C9	Purple Violet
+#A23BEC	Jasmine Purple
+#8A2BE2	BlueViolet (W3C)
+#893BFF	Aztech Purple
+
+
+#311b92
+#151515
+#000000
+424242
+#151516
+#757979
+
